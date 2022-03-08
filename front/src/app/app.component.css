@@ -1,0 +1,36 @@
+.imag{
+    background-image: url('https://www.mickeyshannon.com/photos/landscape-photography.jpg');
+    height: 120px;
+    background-size: cover;
+}
+.button{
+    display:inline-block;
+    font-family:'Roboto',sans-serif;
+    background-color: white;
+    font-family: monospace,'Lucida Console';
+    font-size: medium;
+    padding: 12px 28px;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+.buttonrun{
+    display:inline-block;
+    font-family:'Roboto',sans-serif;
+    background-color: white;
+    font-family: monospace,'Lucida Console';
+    font-size: medium;
+    padding: 12px 28px;
+    border-radius: 2px;
+    Background-color:chartreuse;
+    font-weight: bolder;
+}
+.buttonrun:hover{
+    background-color: rgb(193, 193, 218);
+    color: white;
+
+}
+.button:hover{
+   background-color: rgb(193, 193, 218);
+   color: white;
+}
+

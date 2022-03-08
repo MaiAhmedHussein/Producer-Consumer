@@ -1,0 +1,30 @@
+<div>
+  <div class="imag"></div>
+  <div style="margin-top: 20px;" >
+    <button class="buttonrun" style="margin-left:5px;" (click)="startsim()">RUN ></button>
+    <button class="button" style="margin-left:15px;"(click)="replay()">Replay</button>
+    <button class="button" style="margin-left:5px;"(click)="stop()"> Stop</button>
+    <button class="button" style="margin-left:15px;" (click)="startnew()">Clear</button>
+    <button class="button" style="margin-left:15px;" (click)="delete()">Delete</button>
+    <button class="button" style="margin-left:600px;" (click)="Addconnect()">Connect</button>
+    <button class="button" style="margin-left:25px;" (click)="AddMachine()">Add Machine</button>
+    <button class="button" style="margin-left:25px;" (click)="AddQueue()">Add Queue</button>
+    <br>
+    <span style="margin-left: 10px;"> Enter number of Products
+      <input
+          type="number"
+          v-model="message"
+          style=" font-family: monospace,'Lucida Console'; font-size: medium; margin-top:15px;"
+          placeholder="Addproduct"
+          id="inputnumber"/>
+          <button class="button" style="margin-left:5px;" (click)="getNoOfProduct()">OK</button>
+    </span>
+  </div>
+  <div style="width: 1250px;">  
+    <svg width="1700" height="700" xmlns="http://www.w3.org/2000/svg" id="svg" (click)="getid($event)" (mousedown)="mousePosition($event)">
+      <defs><marker id="arrowhead" markerWidth="10" markerHeight="7" orient="auto" style="stroke:black" refX="2.5" refY="3">
+        <polygon points="0 0,2.5 3,0 7" style="fill: black;"></polygon>
+      </marker></defs>
+    </svg>
+  </div>
+</div>

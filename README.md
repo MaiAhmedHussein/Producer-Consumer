@@ -15,6 +15,7 @@
 4. How to run Producer consumer simulator:
 
 1- Run Angular Code while Running Spring boot program to be able to receive data from the front end (http://localhost:4200/).
+
 2- As shown the picture this page will appear in the browser which contains simulator interface as shown in fig.1
 ![](https://lh6.googleusercontent.com/RZ9ZzNHlhjPMlZp6NZB6-jfwyq0825SplXcC_yqonEPa3RLSaC0rRYXV6frBdWchfMnMHzjlclbV2e1lmZ7dY3l86TN8s82uoRMzOAcay0R7pHXhvbSfnjQnY3VtLbdi8C4z0fGz)
 
